@@ -5,6 +5,6 @@ if &background == "dark"
     hi normal guibg=black
     set transp=8
 endif
-set gfn=Monaco:h13
+set gfn=Menlo\ Regular:h13
 set guioptions=egmrt
 set showtabline=2
