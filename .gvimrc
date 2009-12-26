@@ -1,6 +1,7 @@
-set lines=46
-set columns=120
-colorscheme sunburst
+set lines=50
+set columns=150
+set linespace=3
+colorscheme hpoydar
 if &background == "dark"
     hi normal guibg=black
     set transp=8
