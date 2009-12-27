@@ -80,7 +80,7 @@ map <leader>a :Ack<space>
 set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
 
 " Invisible characters *********************************************************
-set listchars=trail:.,tab:>-,eol:$
+set listchars=trail:.,tab:>-,eol:¬
 set nolist
 :noremap ,i :set list!<CR> " Toggle invisible chars"
 

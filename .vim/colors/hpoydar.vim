@@ -18,7 +18,7 @@ if has("gui_running")
   highlight Search    guibg=#16181A guifg=NONE
   highlight MatchParen guibg=#16181A guifg=#CE864B
   highlight Folded    guibg=#16181A guifg=NONE
-
+  
   " Some defaults for all languages
   highlight Normal    guifg=White   guibg=Black
   highlight Include   guifg=#CE864B guibg=Black
@@ -34,7 +34,7 @@ if has("gui_running")
   highlight String     guifg=#65B042 guibg=Black
   highlight Title      guifg=#FFFFFF guibg=Black
   highlight Todo       guifg=#FFFFFF guibg=Black gui=underline
- 
+
   " HTML
   highlight htmlTag guifg=#80BDF7 guibg=Black
   highlight htmlEndTag guifg=#80BDF7 guibg=Black
