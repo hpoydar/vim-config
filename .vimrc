@@ -81,7 +81,7 @@ set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
 
 " Invisible characters *********************************************************
 "set listchars=trail:.,tab:>-,eol:¬
-set listchars=eol:¬
+set listchars=tab:>-,eol:¬
 set list
 :noremap ,i :set list!<CR> " Toggle invisible chars"
 
@@ -98,5 +98,5 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete 
 
 augroup mkd
- autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
+  autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
