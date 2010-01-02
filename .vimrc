@@ -80,8 +80,9 @@ map <leader>a :Ack<space>
 set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
 
 " Invisible characters *********************************************************
-set listchars=trail:.,tab:>-,eol:¬
-set nolist
+"set listchars=trail:.,tab:>-,eol:¬
+set listchars=eol:¬
+set list
 :noremap ,i :set list!<CR> " Toggle invisible chars"
 
 " Omni Completion
@@ -97,8 +98,5 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete 
 
 augroup mkd
-
  autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
-
 augroup END
-

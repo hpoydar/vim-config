@@ -11,8 +11,9 @@ let g:colors_name = "hpoydar"
 
 if has("gui_running")
 
-  highlight lineNr    guifg=#4f4f4f guibg=Black
-  highlight VertSplit guifg=#DEDEDE guibg=#888888
+  highlight lineNr    guifg=#4f4f4f guibg=Black gui=NONE
+  highlight NonText  guifg=#2f2f2f gui=NONE
+  highlight VertSplit guifg=#000000 guibg=Black gui=NONE
   highlight IncSearch guibg=#16181A
   highlight Cursor    guibg=#DDDDDD
   highlight Search    guibg=#16181A guifg=NONE
