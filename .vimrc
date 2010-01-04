@@ -22,7 +22,7 @@ set expandtab
 set backspace=start,indent
 
 " Turn on virtual editing
-set virtualedit=all
+"set virtualedit=all
 
 " Turn on highlighted search and syntax highlighting
 set hlsearch
