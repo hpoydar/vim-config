@@ -4,7 +4,7 @@ set linespace=3
 colorscheme hpoydar
 if &background == "dark"
     hi normal guibg=black
-    set transp=8
+    set transp=1
 endif
 set gfn=Menlo\ Regular:h13
 set guioptions=egmrt
