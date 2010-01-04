@@ -36,7 +36,7 @@ syntax on
 let mapleader = ","
 
 " Set up commands for FuzzyFinder and FuzzyFinderTextMate
-map <leader>g :FuzzyFinderTextMate<CR>
+map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>b :FuzzyFinderBuffer<CR>
 map <leader>f :FuzzyFinderFile<CR>
 map <leader>r :FuzzyFinderMruFile<CR>
