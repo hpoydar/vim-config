@@ -9,3 +9,7 @@ endif
 set gfn=Menlo\ Regular:h13
 set guioptions=egmrt
 set showtabline=2
+" Full screen should be full screen
+" Uncomment second line to enter full screen on launch
+set fuoptions=maxvert,maxhorz
+"au GUIEnter * set fullscreen
