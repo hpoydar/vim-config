@@ -24,13 +24,16 @@ set backspace=start,indent
 " Turn on virtual editing
 set virtualedit=all
 
+" Turn off wrapping
+set nowrap
+
 " Turn on highlighted search and syntax highlighting
 set hlsearch
 set incsearch
 syntax on
 
 " Stick in lines below and above cursor
-set scrolloff=5
+set scrolloff=10
 
 " Turn on line highlighting
 " set cursorline " Commented out due to poor performance
@@ -116,3 +119,12 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 augroup mkd
   autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
+
+" Remap up and down plugin
+nnoremap <silent> <C-Up> <Plug>upAndDownUp 
+nnoremap <silent> <C-Down> <Plug>upAndDownDown 
+inoremap <silent> <C-Up> <Plug>upAndDownInsertUp
+inoremap <silent> <C-Down> <Plug>upAndDownInsertDown 
+vnoremap <silent> <C-Up> <Plug>upAndDownVisualUp 
+vnoremap <silent> <C-Down> <Plug>upAndDownVisualDown 
+
