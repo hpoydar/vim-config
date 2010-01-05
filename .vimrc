@@ -22,12 +22,15 @@ set expandtab
 set backspace=start,indent
 
 " Turn on virtual editing
-"set virtualedit=all
+set virtualedit=all
 
 " Turn on highlighted search and syntax highlighting
 set hlsearch
 set incsearch
 syntax on
+
+" Stick in lines below and above cursor
+set scrolloff=5
 
 " Turn on line highlighting
 " set cursorline " Commented out due to poor performance
@@ -48,6 +51,10 @@ let g:fuzzy_matching_limit = 70
 
 " Set up command for NERDTree
 map <leader>n :NERDTree<CR>
+
+" NERDTree options
+let g:NERDTreeShowHidden = 1
+let g:NERDTreeIgnore = ['\~$', '\.git$', '\.swp$', '\.DS_Store$']
 
 " Make backspace work the way it should
 set backspace=2

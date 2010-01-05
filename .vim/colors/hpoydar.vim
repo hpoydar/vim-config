@@ -13,7 +13,7 @@ if has("gui_running")
 
   highlight lineNr    guifg=#4f4f4f guibg=Black gui=NONE
   highlight NonText  guifg=#2f2f2f gui=NONE
-  highlight VertSplit guifg=#000000 guibg=Black gui=NONE
+  highlight VertSplit guifg=#000000 guibg=#1f1f1f gui=NONE
   highlight IncSearch guibg=#16181A
   highlight Cursor    guibg=#DDDDDD
   highlight Search    guibg=#16181A guifg=NONE
