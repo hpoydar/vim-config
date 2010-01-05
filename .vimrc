@@ -1,4 +1,4 @@
-" no vi compatibility
+no vi compatibility
 set nocompatible
 
 " Show position in file
@@ -35,6 +35,9 @@ set scrolloff=5
 " Turn on line highlighting
 " set cursorline " Commented out due to poor performance
 
+" bind control-l to hashrocket
+imap <C-l> <Space>=><Space>
+
 " Set leader to comma
 let mapleader = ","
 
@@ -55,6 +58,9 @@ map <leader>n :NERDTree<CR>
 " NERDTree options
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeIgnore = ['\~$', '\.git$', '\.swp$', '\.DS_Store$']
+
+" Map ack
+map <leader>a :Ack<space>
 
 " Make backspace work the way it should
 set backspace=2
