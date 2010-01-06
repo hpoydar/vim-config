@@ -119,12 +119,3 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 augroup mkd
   autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
-
-" Remap up and down plugin
-nnoremap <silent> <C-Up> <Plug>upAndDownUp 
-nnoremap <silent> <C-Down> <Plug>upAndDownDown 
-inoremap <silent> <C-Up> <Plug>upAndDownInsertUp
-inoremap <silent> <C-Down> <Plug>upAndDownInsertDown 
-vnoremap <silent> <C-Up> <Plug>upAndDownVisualUp 
-vnoremap <silent> <C-Down> <Plug>upAndDownVisualDown 
-
