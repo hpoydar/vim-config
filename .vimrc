@@ -119,3 +119,4 @@ autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 augroup mkd
   autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
 augroup END
+

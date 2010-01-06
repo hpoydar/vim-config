@@ -11,6 +11,7 @@ let g:colors_name = "hpoydar"
 
 if has("gui_running")
 
+  " General
   highlight lineNr    guifg=#4f4f4f guibg=Black gui=NONE
   highlight NonText  guifg=#2f2f2f gui=NONE
   highlight VertSplit guifg=#000000 guibg=#1f1f1f gui=NONE
@@ -35,6 +36,13 @@ if has("gui_running")
   highlight String     guifg=#65B042 guibg=Black
   highlight Title      guifg=#FFFFFF guibg=Black
   highlight Todo       guifg=#FFFFFF guibg=Black gui=underline
+
+  " NERDTree
+  highlight treeUp guifg=#666666 guibg=Black gui=NONE
+  highlight treeDir guifg=#999999 guibg=Black gui=NONE
+  highlight treeFile guifg=#f1f1f1 guibg=Black gui=NONE
+  highlight treeCWD guifg=#cccccc guibg=Black gui=NONE
+
 
   " HTML
   highlight htmlTag guifg=#80BDF7 guibg=Black
