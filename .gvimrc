@@ -1,7 +1,7 @@
 set lines=50
 set columns=150
 set linespace=3
-colorscheme hpoydar
+colorscheme ir_black
 if &background == "dark"
     hi normal guibg=black
     set transp=1
