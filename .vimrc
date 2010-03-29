@@ -53,7 +53,7 @@ map <leader>R :ruby finder.rescan!<CR>:FuzzyFinderRemoveCache<CR>:exe ":echo 're
 
 " Fuzzy options
 let g:fuzzy_ignore = "*.log"
-let g:fuzzy_matching_limit = 70
+let g:fuzzy_matching_limit = 30
 
 " Set up command for NERDTree
 map <leader>n :NERDTree<CR>
