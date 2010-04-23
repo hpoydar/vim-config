@@ -92,6 +92,9 @@ command! -nargs=+ -complete=file Ack call AckGrep(<q-args>)
 
 map <leader>a :Ack<space>
 
+" map grep to ack
+set grepprg=ack\ -a
+
 " Add a status line by default
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 "set laststatus=2
