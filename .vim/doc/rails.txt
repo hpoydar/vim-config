@@ -1132,3 +1132,4 @@ This plugin is distributable under the same terms as Vim itself.  See
 |license|.  No warranties, expressed or implied.
 
  vim:tw=78:ts=8:ft=help:norl:
+
