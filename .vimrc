@@ -52,7 +52,7 @@ map <leader>r :FuzzyFinderMruFile<CR>
 map <leader>R :ruby finder.rescan!<CR>:FuzzyFinderRemoveCache<CR>:exe ":echo 'rescan complete'"<CR>
 
 " Fuzzy options
-let g:fuzzy_ignore = "*.log"
+let g:fuzzy_ignore = "vendor/**/*,tmp/**/*,*.log,.bundle/**/*,lock/**/*,relock/**/*"
 let g:fuzzy_matching_limit = 30
 
 " Set up command for NERDTree
